@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: 'Todo App',
-  description: 'A simple todo app that works offline',
+  description: 'A simple todo app built with Next.js, shadcn/ui and Tailwind CSS.',
   themeColor: '#000000',
   appleWebApp: {
     capable: true,
