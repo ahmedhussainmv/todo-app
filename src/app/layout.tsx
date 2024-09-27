@@ -17,7 +17,6 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Todo App',
   description: 'A simple todo app that works offline',
-  manifest: '/manifest.json',
   themeColor: '#000000',
   appleWebApp: {
     capable: true,
