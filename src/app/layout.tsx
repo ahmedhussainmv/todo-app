@@ -39,7 +39,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Toaster richColors />
+        <div className="max-h-dvh max-w-dvw">
         {children}
+        </div>
       </body>
     </html>
   );

@@ -352,9 +352,14 @@ export default function TodoApp() {
       <footer className="bg-gray-200 p-4 mt-8">
         <div className="container mx-auto text-center text-sm text-gray-600">
           <p>
-            © {new Date().getFullYear()} Todo App. Developed by Ahmed Hussain
+            © {new Date().getFullYear()} Todo App. Developed by{" "}
+            <a target="_blank" className="font-semibold hover:underline" href="https://github.com/ahmedhussainmv">Ahmed Hussain</a>
           </p>
-          <p>Built with Next.js and Tailwind CSS</p>
+          <p>
+            Built with <a target="_blank" className="font-semibold hover:underline" href="https://nextjs.org">Next.js</a>,{" "}
+            <a target="_blank" className="font-semibold hover:underline" href="https://ui.shadcn.com">Shadcn</a>, and{" "}
+            <a target="_blank" className="font-semibold hover:underline" href="https://tailwindcss.com">Tailwind CSS</a>
+          </p>
         </div>
       </footer>
 

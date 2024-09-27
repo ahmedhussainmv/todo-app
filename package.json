@@ -1,5 +1,6 @@
 {
   "name": "todo-app",
+  "description": "A simple todo app built with Next.js, Shadcn/UI and Tailwind CSS",
   "version": "0.1.0",
   "author": {
     "name": "Ahmed Hussain",
@@ -10,8 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.1",
