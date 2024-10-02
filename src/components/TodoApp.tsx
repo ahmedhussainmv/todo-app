@@ -199,6 +199,13 @@ export default function TodoApp() {
     }
   };
 
+  const handleCancellPasswordChange = () => {
+    setIsChangingPassword(false);
+    setNewPassword("");
+    setCurrentPassword("");
+    setPasswordError("");
+  }
+
   if (isLoading) {
     return (
       <div className="flex justify-center items-center h-screen">
@@ -410,7 +417,7 @@ export default function TodoApp() {
               required
             />
             <DialogFooter>
-              <Button variant="outline">Cancel</Button>
+              <Button variant="outline" type="button" onClick={handleCancellPasswordChange}>Cancel</Button>
               <Button type="submit">Change Password</Button>
             </DialogFooter>
           </form>
