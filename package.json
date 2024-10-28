@@ -1,6 +1,6 @@
 {
   "name": "todo-app",
-  "description": "A simple quran built with Next.js, shadcn/ui and Tailwind CSS",
+  "description": "A simple todo app built with Next.js, shadcn/ui and Tailwind CSS",
   "version": "0.1.0",
   "author": {
     "name": "Ahmed Hussain",

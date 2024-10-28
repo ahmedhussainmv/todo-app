@@ -1,7 +1,7 @@
 {
   "name": "Todo",
   "short_name": "Todo",
-  "description": "A simple quran built with Next.js, shadcn/ui and Tailwind CSS",
+  "description": "A simple todo app built with Next.js, shadcn/ui and Tailwind CSS",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
