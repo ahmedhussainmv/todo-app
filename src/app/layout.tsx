@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { RegisterSW } from "@/app/RegisterSW";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,18 +16,24 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Todo App',
-  description: 'A simple todo app built with Next.js, shadcn/ui and Tailwind CSS.',
-  themeColor: '#000000',
+  title: "Todo",
+  description: "A simple todo app for your web browser.",
   appleWebApp: {
     capable: true,
-    statusBarStyle: 'default',
-    title: 'Todo App',
+    statusBarStyle: "default",
+    title: "Todo",
   },
   icons: {
-    apple: '/icon-192x192.png',
+    apple: "/icon-192x192.png",
   },
-}
+  manifest: "/manifest.json",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  width: "device-wodth",
+  initialScale: 1,
+};
 
 export default function RootLayout({
   children,
@@ -40,7 +47,8 @@ export default function RootLayout({
       >
         <Toaster richColors />
         <div className="max-h-dvh max-w-dvw">
-        {children}
+          {children}
+          <RegisterSW />
         </div>
       </body>
     </html>

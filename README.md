@@ -1,8 +1,8 @@
-# Todo App
+# Quran
 
 ## Description
 
-This Todo App is a client-side application built with Next.js, Shadcn UI components, and Tailwind CSS. It offers a secure and efficient way to manage your daily tasks. Here's how it works:
+This Quran is a client-side application built with Next.js, Shadcn UI components, and Tailwind CSS. It offers a secure and efficient way to manage your daily tasks. Here's how it works:
 
 1. **Password Protection**: Upon first use, you'll be prompted to set a password. This password is stored locally and required for subsequent logins, ensuring your todos remain private.
 
@@ -22,7 +22,7 @@ This open-source project is designed to be simple yet functional, making it an e
 
 ## Table of Contents
 
-- [Todo App](#todo-app)
+- [Quran](#todo-app)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)

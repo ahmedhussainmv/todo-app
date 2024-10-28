@@ -218,7 +218,7 @@ export default function TodoApp() {
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <header className="bg-primary text-primary-foreground p-4">
         <div className="container mx-auto">
-          <h1 className="text-2xl font-bold">Todo App</h1>
+          <h1 className="text-2xl font-bold">Todo</h1>
         </div>
       </header>
 
@@ -359,7 +359,7 @@ export default function TodoApp() {
       <footer className="bg-gray-200 p-4 mt-8">
         <div className="container mx-auto text-center text-sm text-gray-600">
           <p>
-            © {new Date().getFullYear()} Todo App. Developed by{" "}
+            © {new Date().getFullYear()} Todo. Developed by{" "}
             <a target="_blank" className="font-semibold hover:underline" href="https://github.com/ahmedhussainmv">Ahmed Hussain</a>
           </p>
           <p>
